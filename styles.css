@@ -87,10 +87,51 @@ footer a {
     font-size: 24px; /* Tamanho dos ícones */
 }
 
+/* Estilos para dispositivos móveis */
+/* Estilos para dispositivos móveis */
+/* Estilos para dispositivos móveis */
 @media (max-width: 768px) {
-    /* Estilos para dispositivos móveis */
+    body {
+        margin-bottom: 350px; /* Diminui a margem inferior da página */
+    }
+
     header {
         padding: 10px;
+        font-size: 1.2em; /* Reduz o tamanho da fonte do header */
+    }
+
+    #api {
+        width: 90%;
+        max-height: 300px; /* Define uma altura máxima para a div api */
+        overflow: auto; /* Adiciona uma barra de rolagem se o conteúdo exceder a altura */
+        margin-bottom: 30px; /* Aumenta o espaçamento abaixo da div api */
+    }
+
+    #api img {
+        max-width: 60%; /* Reduz o tamanho da imagem em 20% */
+        height: auto;
+    }
+
+ #novo {
+        font-size: 0.8em; /* Reduz o tamanho da fonte do botão */
+        width: 90%; /* Define a largura do botão */
+        margin: 10px; /* Adiciona margem ao botão */
+    }
+
+    footer {
+        padding: 10px;
+        font-size: 0.8em;
+        position: fixed; /* Fixa o footer na parte inferior da tela */
+        bottom: 0;
+        width: 100%;
+        background-color: #333;
+        color: white;
+        text-align: center;
+        margin-top: 30px; /* Aumenta o espaçamento acima do footer */
     }
 }
+
+
+
+
 
